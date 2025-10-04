@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		F5CDF8C92E90DF5A0024B35D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5CDF8B02E90DF570024B35D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5CDF8B72E90DF570024B35D;
+			remoteInfo = "Criczz Movie";
+		};
+		F5CDF8D32E90DF5A0024B35D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5CDF8B02E90DF570024B35D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5CDF8B72E90DF570024B35D;
+			remoteInfo = "Criczz Movie";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5CDF8B82E90DF570024B35D /* Criczz Movie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Criczz Movie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5CDF8C82E90DF5A0024B35D /* Criczz MovieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Criczz MovieTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5CDF8D22E90DF5A0024B35D /* Criczz MovieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Criczz MovieUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F5CDF8BA2E90DF570024B35D /* Criczz Movie */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Criczz Movie";
+			sourceTree = "<group>";
+		};
+		F5CDF8CB2E90DF5A0024B35D /* Criczz MovieTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Criczz MovieTests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5CDF8B52E90DF570024B35D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5CDF8C52E90DF5A0024B35D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5CDF8CF2E90DF5A0024B35D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5CDF8AF2E90DF570024B35D = {
+			isa = PBXGroup;
+			children = (
+				F5CDF8BA2E90DF570024B35D /* Criczz Movie */,
+				F5CDF8CB2E90DF5A0024B35D /* Criczz MovieTests */,
+				F5CDF8B92E90DF570024B35D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5CDF8B92E90DF570024B35D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5CDF8B82E90DF570024B35D /* Criczz Movie.app */,
+				F5CDF8C82E90DF5A0024B35D /* Criczz MovieTests.xctest */,
+				F5CDF8D22E90DF5A0024B35D /* Criczz MovieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5CDF8B72E90DF570024B35D /* Criczz Movie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5CDF8DC2E90DF5A0024B35D /* Build configuration list for PBXNativeTarget "Criczz Movie" */;
+			buildPhases = (
+				F5CDF8B42E90DF570024B35D /* Sources */,
+				F5CDF8B52E90DF570024B35D /* Frameworks */,
+				F5CDF8B62E90DF570024B35D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F5CDF8BA2E90DF570024B35D /* Criczz Movie */,
+			);
+			name = "Criczz Movie";
+			packageProductDependencies = (
+			);
+			productName = "Criczz Movie";
+			productReference = F5CDF8B82E90DF570024B35D /* Criczz Movie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5CDF8C72E90DF5A0024B35D /* Criczz MovieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5CDF8DF2E90DF5A0024B35D /* Build configuration list for PBXNativeTarget "Criczz MovieTests" */;
+			buildPhases = (
+				F5CDF8C42E90DF5A0024B35D /* Sources */,
+				F5CDF8C52E90DF5A0024B35D /* Frameworks */,
+				F5CDF8C62E90DF5A0024B35D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5CDF8CA2E90DF5A0024B35D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F5CDF8CB2E90DF5A0024B35D /* Criczz MovieTests */,
+			);
+			name = "Criczz MovieTests";
+			packageProductDependencies = (
+			);
+			productName = "Criczz MovieTests";
+			productReference = F5CDF8C82E90DF5A0024B35D /* Criczz MovieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5CDF8D12E90DF5A0024B35D /* Criczz MovieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5CDF8E22E90DF5A0024B35D /* Build configuration list for PBXNativeTarget "Criczz MovieUITests" */;
+			buildPhases = (
+				F5CDF8CE2E90DF5A0024B35D /* Sources */,
+				F5CDF8CF2E90DF5A0024B35D /* Frameworks */,
+				F5CDF8D02E90DF5A0024B35D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5CDF8D42E90DF5A0024B35D /* PBXTargetDependency */,
+			);
+			name = "Criczz MovieUITests";
+			packageProductDependencies = (
+			);
+			productName = "Criczz MovieUITests";
+			productReference = F5CDF8D22E90DF5A0024B35D /* Criczz MovieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5CDF8B02E90DF570024B35D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					F5CDF8B72E90DF570024B35D = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					F5CDF8C72E90DF5A0024B35D = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = F5CDF8B72E90DF570024B35D;
+					};
+					F5CDF8D12E90DF5A0024B35D = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = F5CDF8B72E90DF570024B35D;
+					};
+				};
+			};
+			buildConfigurationList = F5CDF8B32E90DF570024B35D /* Build configuration list for PBXProject "Criczz Movie" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5CDF8AF2E90DF570024B35D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F5CDF8B92E90DF570024B35D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5CDF8B72E90DF570024B35D /* Criczz Movie */,
+				F5CDF8C72E90DF5A0024B35D /* Criczz MovieTests */,
+				F5CDF8D12E90DF5A0024B35D /* Criczz MovieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5CDF8B62E90DF570024B35D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5CDF8C62E90DF5A0024B35D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5CDF8D02E90DF5A0024B35D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5CDF8B42E90DF570024B35D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5CDF8C42E90DF5A0024B35D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5CDF8CE2E90DF5A0024B35D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5CDF8CA2E90DF5A0024B35D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5CDF8B72E90DF570024B35D /* Criczz Movie */;
+			targetProxy = F5CDF8C92E90DF5A0024B35D /* PBXContainerItemProxy */;
+		};
+		F5CDF8D42E90DF5A0024B35D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5CDF8B72E90DF570024B35D /* Criczz Movie */;
+			targetProxy = F5CDF8D32E90DF5A0024B35D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F5CDF8DA2E90DF5A0024B35D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5CDF8DB2E90DF5A0024B35D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5CDF8DD2E90DF5A0024B35D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Criczz Movie/Utils/Assets/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Criczz-Movie-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "team.Criczz-Movie";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5CDF8DE2E90DF5A0024B35D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Criczz Movie/Utils/Assets/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Criczz-Movie-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "team.Criczz-Movie";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F5CDF8E02E90DF5A0024B35D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "team.Criczz-MovieTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Criczz Movie.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Criczz Movie";
+			};
+			name = Debug;
+		};
+		F5CDF8E12E90DF5A0024B35D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "team.Criczz-MovieTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Criczz Movie.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Criczz Movie";
+			};
+			name = Release;
+		};
+		F5CDF8E32E90DF5A0024B35D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "team.Criczz-MovieUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Criczz Movie";
+			};
+			name = Debug;
+		};
+		F5CDF8E42E90DF5A0024B35D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "team.Criczz-MovieUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Criczz Movie";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5CDF8B32E90DF570024B35D /* Build configuration list for PBXProject "Criczz Movie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5CDF8DA2E90DF5A0024B35D /* Debug */,
+				F5CDF8DB2E90DF5A0024B35D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5CDF8DC2E90DF5A0024B35D /* Build configuration list for PBXNativeTarget "Criczz Movie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5CDF8DD2E90DF5A0024B35D /* Debug */,
+				F5CDF8DE2E90DF5A0024B35D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5CDF8DF2E90DF5A0024B35D /* Build configuration list for PBXNativeTarget "Criczz MovieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5CDF8E02E90DF5A0024B35D /* Debug */,
+				F5CDF8E12E90DF5A0024B35D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5CDF8E22E90DF5A0024B35D /* Build configuration list for PBXNativeTarget "Criczz MovieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5CDF8E32E90DF5A0024B35D /* Debug */,
+				F5CDF8E42E90DF5A0024B35D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5CDF8B02E90DF570024B35D /* Project object */;
+}
